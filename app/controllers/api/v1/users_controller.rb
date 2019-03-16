@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Api::V1::UsersController < ApplicationController
   def register
     @user = User.create(user_params)
    if @user.save
