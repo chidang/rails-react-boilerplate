@@ -1,24 +1,36 @@
-# README
+# rails-react-boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is included in this boilerplate:
+* [ruby 2.4]
+* [Rails 5](https://github.com/rails/rails)
+* [Devise](https://github.com/plataformatec/devise) - Users setup & ready to go
+* [Check the Gemfile for more!](https://github.com/chidang/rails-react-boilerplate/blob/master/Gemfile)
 
-Things you may want to cover:
+## How do I set this up?
+Clone the repo to your local machine and cd:
 
-* Ruby version
+```html
+git clone git@github.com:chidang/rails-react-boilerplate.git
+cd rails-react-boilerplate
+```
+Run `bundle install` to install all the gems we are using.
 
-* System dependencies
+### Configuration
+[Configure your local database connection](#database_config)
+* rename file env to .env
+### Database creation
+* rails db:migrate
 
-* Configuration
+### Run
+You can now run the app as normal: `rails s`
 
-* Database creation
+### Services
+(job queues, cache servers, search engines, etc.)
 
-* Database initialization
+## Running the Test Suite
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## How do I deploy this?
 
-* Deployment instructions
 
-* ...
+## How do I setup a server for this?
