@@ -28,7 +28,7 @@ Open your postman so the we can test this implantation
 
 ```html
 Select Post request
-Add the URL http://localhost:3000/auth/register
+Add the URL http://localhost:3000/api/v1/auth/register
 Select x-www-form-urlencoded
 Fill the fields(key) and the values
 ```
