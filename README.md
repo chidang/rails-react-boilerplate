@@ -26,10 +26,12 @@ You can now run the app as normal: `rails s`
 
 Open your postman so the we can test this implantation
 
+```html
 Select Post request
 Add the URL http://localhost:3000/auth/register
 Select x-www-form-urlencoded
 Fill the fields(key) and the values
+```
 ![Register](https://github.com/chidang/rails-react-boilerplate/blob/master/public/assests/images/register.png "Rails React Boilerplate")
 
 Click Send
